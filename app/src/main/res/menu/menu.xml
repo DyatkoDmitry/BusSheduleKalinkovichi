@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/marshrutka_9_autovkzl_zbh"
+        android:title="@string/about_marshrutka_9"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/scheme_routes"
+        android:title="@string/scheme_routes"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/download_data"
+        android:title="@string/download_data"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/about_application"
+        android:title="@string/about_application"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/about_help"
+        android:title="@string/about_appl_about"
+        app:showAsAction="collapseActionView" />
+
+</menu>

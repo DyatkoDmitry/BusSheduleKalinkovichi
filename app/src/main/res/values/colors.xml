@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00284c</color>
+    <color name="primary_dark">#001f3b</color>
+    <color name="accent">#009688</color>
+
+    <color name="colorMain">#FFF6BB	</color>
+    <color name="colorButtonTextYellow">#FFF192</color>
+    <color name="colorButtonBackground">#eceff1</color>
+
+    <color name="color_for_text_toolbar">#00adfd</color>
+    <color name="primary_text_color">#EDE2C3</color>
+    <color name="Color_selected_item">#c4c4c4</color>
+    <color name="transparent">#00000000</color>
+    <color name="Color_left_line_child">#99b3c3</color>
+    <color name="color_background_next_bus">#d6e4ec</color>
+    <color name="color_background_main_activity">#e6e8ea</color>
+
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+
+</resources>

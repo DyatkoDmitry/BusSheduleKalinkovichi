@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="by.example.rampant.busshedule"
+    android:versionCode="2"
+    android:versionName="1.01">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bus_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Base">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_201_Mozyr_Kalinkovichi" />
+        <activity android:name=".Activity_201_Kalinkovichi_Mozyr" />
+        <activity android:name=".Activity_9_BusStation_ZBH" />
+        <activity android:name=".Activity_9_ZBH_BusStation" />
+
+        <activity
+            android:name=".Activity_Show_Photo_Shedule"
+            android:configChanges="orientation" />
+
+    </application>
+
+</manifest>

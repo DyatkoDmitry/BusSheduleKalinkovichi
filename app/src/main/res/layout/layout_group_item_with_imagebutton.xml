@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@android:drawable/divider_horizontal_textfield" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:paddingRight="2dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:background="@color/Color_left_line_child">
+
+            <TextView
+                android:id="@+id/id_textView_GroupView_NumberStation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textSize="12sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/id_tvText_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="42dp"
+            android:layout_weight="0.99"
+            android:textSize="22sp"/>
+
+        <ImageButton
+            android:id="@+id/id_imageButton_show_photo"
+            android:layout_width="31dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.01"
+            android:visibility="gone"
+            android:background="@drawable/iconphotoshedule" />
+
+    </LinearLayout>
+
+</LinearLayout>

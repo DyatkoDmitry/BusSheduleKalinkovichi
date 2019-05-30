@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_toolbar_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/toolbar_main_activity"
+    android:minHeight="?attr/actionBarSize"
+
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_textview_in_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:text="Расписание автобусов"
+                android:textColor="@color/color_for_text_toolbar"
+
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/id_textview_in_toolbar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="201 и 9 г.Калинковичи"
+                android:textColor="@color/color_for_text_toolbar"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+</android.support.v7.widget.Toolbar>

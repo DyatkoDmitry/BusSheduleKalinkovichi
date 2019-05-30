@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Калинковичи.Расписание 201, 9</string>
+
+    <string name="_201_Mozyr_Kalnkvch">201 Мозырь → Калинковичи</string>
+    <string name="_201_Kalnkvch_Mozyr">201 Калинковичи → Мозырь</string>
+    <string name="_9_Autovkz_ZBH">9 Автовокзал → ЗБХ</string>
+    <string name="_9_ZBH_Autovokzal">9 ЗБХ → Автовокзал</string>
+
+    <string name="weekday_text">Будний день</string>
+    <string name="dayoff_text">Выходной день</string>
+
+    <string name="Warning_information">Информация носит ознакомительный характер</string>
+    <string name="Load_text">Загрузка данных...</string>
+
+    <string name="internet_photo_download">Фотография загружается</string>
+    <string name="internet_to_connect">Подключитесь к интернету</string>
+    <string name="internet_photo_done">Фотография сделана: </string>
+    <string name="internet_download_error">Ошибка загрузки данных</string>
+    <string name="internet_download_base_successfully">Данные успешно загружены</string>
+    <string name="internet_photo_error">Ошибка</string>
+    <string name="internet_download_all_and_restart_app">Войдите в интернет и перезапустите приложение</string>
+
+    <string name="about_marshrutka_9">Маршрутка 9 автовокзал</string>
+    <string name="scheme_routes">Схема движения автобусов</string>
+    <string name="download_data">Обновить данные</string>
+    <string name="about_application">О приложении</string>
+    <string name="about_appl_about">Справка</string>
+
+
+    <string name="about_appl_appl_busshedule">Приложение расписания городских автобусов 201 и 9</string>
+    <string name="about_appl_base_tables">Расписание составлено согласно информационным табличкам на автобусных остановках</string>
+    <string name="about_appl_send_group_VK">В случае изменения расписания просьба сообщить об этом в группе поддержки:</string>
+    <string name="about_appl_https_vk_com_auto_kalinkovichi">https://vk.com/auto_kalinkovichi</string>
+    <string name="about_appl_now_know">Приложение не знает о переносе рабочих дней</string>
+    <string name="about_appl_not_responsibility">Автобусный парк и разработчик приложения не несут ответственности за достоверность указанных данных</string>
+    <string name="about_appl_inform_spravka">Информация носит справочный характер</string>
+    <string name="about_appl_author">Автор: Дятко Дмитрий, 2019</string>
+    <string name="about_appl_help">Пояснения</string>
+
+
+    <string name="about_help_title1_buttons">Названия кнопок соответствуют направлению движения автобусов</string>
+    <string name="about_help_title2_time_next_bus">Время следующего отправления автобуса выделено голубым фоном</string>
+    <string name="about_help_button_photoshedule">Кнопка просмотра фотографии расписания (Требуется подключение к интернету)</string>
+
+
+
+</resources>

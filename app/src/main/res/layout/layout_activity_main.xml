@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar_main_activity" />
+
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingBottom="70dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/icon_circle_fly" />
+
+
+            <LinearLayout
+                android:id="@+id/idlinearLayoutLoadData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/idLoadTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/Load_text"
+                    android:textSize="17dp"
+                    android:visibility="visible" />
+
+                <ProgressBar
+                    android:id="@+id/idProgressBar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="25"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@android:drawable/divider_horizontal_textfield" />
+
+            <Button
+                android:id="@+id/idButton201MozyrKalnkvch"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_button_all_button"
+                android:paddingTop="5dp"
+                android:text="@string/_201_Mozyr_Kalnkvch"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@android:drawable/divider_horizontal_textfield" />
+
+            <Button
+                android:id="@+id/idButton201KalnkvchMozyr"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_button_all_button"
+                android:text="@string/_201_Kalnkvch_Mozyr"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@android:drawable/divider_horizontal_textfield" />
+
+            <Button
+                android:id="@+id/idButton9BusStationZBH"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_button_all_button"
+                android:text="@string/_9_Autovkz_ZBH"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@android:drawable/divider_horizontal_textfield" />
+
+            <Button
+                android:id="@+id/idButton9ZBHBusStation"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/background_button_all_button"
+                android:text="@string/_9_ZBH_Autovokzal"
+                android:textColor="@color/White"
+                android:textSize="17dp"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@android:drawable/divider_horizontal_textfield" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="1dp"
+
+                    android:src="@drawable/warning_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="3dp"
+                    android:text="@string/Warning_information"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

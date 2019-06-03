@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="by.example.rampant.busshedule"
-    android:versionCode="2"
-    android:versionName="1.01">
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="26" />
+    package="by.example.rampant.busshedule">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
